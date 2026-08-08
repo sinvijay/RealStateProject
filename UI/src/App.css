@@ -32,7 +32,7 @@ marquee {
     text-decoration: none;
     margin: 0 20px;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 6px 20px;
     transition: background-color 0.4s ease;
 }
 
@@ -47,15 +47,49 @@ marquee {
     border-radius: 5px;
 }
 
+.serch input {
+    margin-top: -35px;
+    margin-bottom: 20px;
+    float: center;
+    box-sizing: border-box;
+    background: transparent;
+    text-align: left;
+    padding: 6px;
+    border: 2px solid #0ce4f3;
+    border-radius: 5px;
+    margin-left: 600px;
+    width: 300px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.src-btn input {
+    background-color: transparent;
+    color: #ffffff;
+    margin-top: -53px;
+    margin-left: 910px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    padding: 6px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+}
+
+.src-btn input:hover {
+    background-color: #c07015;
+}
+
 button {
     background-color: transparent;
-    color: #f0c22b;
-    margin-top: -35px;
-    margin-right: 20px;
+    color: #ffffff;
+    margin-top: -54px;
+    margin-right: 30px;
     font-size: 16px;
     font-weight: bold;
     float: right;
-    padding: 10px 20px;
+    padding: 6px 20px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.4s ease;

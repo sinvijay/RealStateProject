@@ -20,10 +20,16 @@ function Navbar() {
           <li><a link to="services">Services</a></li>
         </ul>
       </div>
-      
-      
-      
-      <div className="login">
+
+      <div className="serch">
+        <input type="text" maxLength={"20"} placeholder="Search..." />
+      </div>
+
+      <div className="src-btn">
+        <input type="submit" value="Search" />
+      </div>
+
+      <div className="btn">
         <button>Login</button>
       </div>
 
