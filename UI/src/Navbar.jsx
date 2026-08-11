@@ -1,26 +1,35 @@
-import { useState } from 'react'
+import { NavLink, Outlet } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
-  
-
   return (
     <div>
-      <div className="logo">Synergy</div>
+      <div className='head'>
+        <marquee behavior="scroll" direction="left" width= '400px'>
+            This Website is under maintenance.
+        </marquee>
+      </div>
+      <NavLink className="logo" to="/">Synergy</NavLink>
       
       <div className="menu">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/services">Services</NavLink></li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
       </div>
-
+      
+      
       <div className="login">
-        <button>Login</button>
+        <NavLink to="/login">Login</NavLink>
+      </div>
+      <div className="Signup">
+        <NavLink to="/signup">Signup</NavLink>
       </div>
 
+
+      <Outlet />
     </div>
   )
 }

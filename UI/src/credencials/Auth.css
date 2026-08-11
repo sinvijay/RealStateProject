@@ -1,0 +1,20 @@
+.auth-page { clear: both; box-sizing: border-box; display: grid; min-height: calc(100vh - 115px); place-items: center; padding: 56px 24px; background: radial-gradient(circle at 12% 16%, rgba(0, 225, 255, .13), transparent 29rem), radial-gradient(circle at 88% 84%, rgba(243, 121, 51, .14), transparent 26rem), #000; }
+.auth-card { box-sizing: border-box; width: min(100%, 460px); padding: 42px; color: #f8fafc; border: 1px solid rgba(255, 255, 255, .15); border-radius: 20px; background: rgba(18, 18, 18, .94); box-shadow: 0 20px 65px rgba(0, 0, 0, .55); }
+.auth-brand { color: #00e1ff; font-family: Jura, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: .2em; }
+.auth-eyebrow { margin: 34px 0 8px; color: #f37933; font-size: .72rem; font-weight: 700; letter-spacing: .14em; }
+.auth-card h1 { margin: 0; color: #fff; font-size: clamp(1.8rem, 4vw, 2.25rem); line-height: 1.12; }
+.auth-subtitle { margin: 12px 0 30px; color: #a9b0bc; line-height: 1.55; }
+.auth-form { display: grid; gap: 10px; }
+.auth-form label { color: #e5e7eb; font-size: .88rem; font-weight: 600; }
+.auth-form input:not([type="checkbox"]) { box-sizing: border-box; width: 100%; margin-bottom: 10px; padding: 13px 14px; color: #fff; border: 1px solid #353943; border-radius: 8px; outline: none; background: #0a0a0a; font: inherit; transition: border-color .2s ease, box-shadow .2s ease; }
+.auth-form input:not([type="checkbox"]):focus { border-color: #00e1ff; box-shadow: 0 0 0 3px rgba(0, 225, 255, .13); }
+.label-row { display: flex; justify-content: space-between; align-items: baseline; }
+.label-row a, .auth-switch a { color: #00e1ff; text-decoration: none; }
+.label-row a:hover, .auth-switch a:hover { color: #fff; }
+.remember-me { display: flex; align-items: center; gap: 9px; margin: 3px 0 14px; }
+.remember-me input { width: 15px; height: 15px; accent-color: #f37933; }
+.remember-me span { color: #b7bdc8; font-size: .84rem; font-weight: 400; }
+.auth-submit { padding: 14px; color: #050505; border: 0; border-radius: 8px; background: #f37933; cursor: pointer; font: inherit; font-weight: 700; transition: transform .2s ease, background-color .2s ease; }
+.auth-submit:hover { background: #ff975c; transform: translateY(-1px); }
+.auth-switch { margin: 26px 0 0; color: #b7bdc8; text-align: center; font-size: .9rem; }
+@media (max-width: 520px) { .auth-page { padding: 35px 16px; } .auth-card { padding: 30px 24px; } .label-row { gap: 10px; } }
