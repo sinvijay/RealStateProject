@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  margin: 0;
+  background-color: lightgoldenrodyellow
+}
+
+.logo {
+  color:maroon ;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin: 0.5em 1em 0em;
+  cursor: pointer;
+  background-color: transparent;
+  transition: filter 0.3s ease, transform 0.3s ease ;
+}
+.logo:hover {
+  color: black;
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1);
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 4em;
+  margin: -1.6em 12em;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: maroon;
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 0.5s ease;
+}
+
+.menu ul li :hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
